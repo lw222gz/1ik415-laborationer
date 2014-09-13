@@ -14,19 +14,18 @@
 </ul>
 
 <p></p>
-<form method="post">
+<form name=input action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
     <fieldset>
     <legend>Fråga</legend><!--Vill göra den kortare, vet inte hur dock. Testade med width och height
     i fieldset satsen men det gjorde inget för mig-->
     Ärende:<select name="Ärende">
-        <option value=""> </option>
         <option value="Fråga">Fråga</option>
         <option value="Medelande">Medelande</option>
         <option value="Möte">Möte</option>
         <option value="Övrigt">Övrigt</option>
 </select><br />
-    Rubrik: <input type="text" name=""/><br />
-    Medelande:<textarea rows="3" cols="30">
+    Rubrik: <input type="text" name="Rubrik"/><br />
+    Medelande:<textarea rows="3" cols="30" input type="text" name="Medelande"/>
 Skriv text här.
     </textarea>
     <br />
