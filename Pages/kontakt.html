@@ -12,6 +12,33 @@
 <li><a href="https://1ik415-laborationer-c9-lw222gz_1.c9.io/Pages/presentation.html">Presentation</a> <br /></li>
 <li><a href="https://1ik415-laborationer-c9-lw222gz_1.c9.io/Pages/kontakt.html">Kontakt</a></li> 
 </ul>
+
+<p></p>
+<form method="post">
+    <fieldset>
+    <legend>Fråga</legend><!--Vill göra den kortare, vet inte hur dock. Testade med width och height
+    i fieldset satsen men det gjorde inget för mig-->
+    Ärende:<select name="Ärende">
+        <option value=""> </option>
+        <option value="Fråga">Fråga</option>
+        <option value="Medelande">Medelande</option>
+        <option value="Möte">Möte</option>
+        <option value="Övrigt">Övrigt</option>
+</select><br />
+    Rubrik: <input type="text" name=""/><br />
+    Medelande:<textarea rows="3" cols="30">
+Skriv text här.
+    </textarea>
+    <br />
+    </fieldset>
+    <fieldset>
+    <legend>Hur ska jag kontakta dig?</legend>
+    <input type="checkbox" name="E-mail" value="mail">E-mail<br />
+    <input type="checkbox" name="Telefon" value="Telefon">Telefon<br />
+    </fieldset>
+    <input type="submit" value="Sicka"/>
+</form>
+
     
 </body>
 </html>
