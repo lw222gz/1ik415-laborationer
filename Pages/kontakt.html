@@ -7,14 +7,14 @@
 <body>
 <h1>Kontakt</h1>
 <ul>
-<li><a href="https://1ik415-laborationer-c9-lw222gz_1.c9.io/Videos/index.html">Start</a> <br /></li>
-<li><a href="https://1ik415-laborationer-c9-lw222gz_1.c9.io/Pages/labrationer.html">Labrationer</a> <br /></li>
-<li><a href="https://1ik415-laborationer-c9-lw222gz_1.c9.io/Pages/presentation.html">Presentation</a> <br /></li>
-<li><a href="https://1ik415-laborationer-c9-lw222gz_1.c9.io/Pages/kontakt.html">Kontakt</a></li> 
+    <li><a href="../index.html">Start</a></li>
+    <li><a href="labrationer.html">Labrationer</a></li>
+    <li><a href="presentation.html">Presentation</a></li>
+    <li><a href="kontakt.html">Kontakt</a></li> 
 </ul>
 
 <p></p>
-<form name=input action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+<form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
     <fieldset>
     <legend>Fråga</legend><!--Vill göra den kortare, vet inte hur dock. Testade med width och height
     i fieldset satsen men det gjorde inget för mig-->
@@ -24,10 +24,8 @@
         <option value="Möte">Möte</option>
         <option value="Övrigt">Övrigt</option>
 </select><br />
-    Rubrik: <input type="text" name="Rubrik"/><br />
-    Medelande:<textarea rows="3" cols="30" input type="text" name="Medelande"/>
-Skriv text här.
-    </textarea>
+    Rubrik: <input type="text" name="Rubrik" />
+    Medelande:<textarea name="textarea" rows="3" cols="30"></textarea>
     <br />
     </fieldset>
     <fieldset>
@@ -36,6 +34,7 @@ Skriv text här.
     <input type="checkbox" name="Telefon" value="Telefon">Telefon<br />
     </fieldset>
     <input type="submit" value="Sicka"/>
+    
 </form>
 
     
