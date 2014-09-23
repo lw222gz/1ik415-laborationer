@@ -1,0 +1,42 @@
+#header {
+        background-color:blue;
+        color:orange;
+        height:200px;
+        text-align:center;
+        padding:5px;
+        }
+
+#navigator
+        {
+        float:left;
+        width:150px;
+        height:100px;
+        background-color:orange;
+        padding:5px;
+        }
+        
+#container
+        {
+        background-color:#00FFFF;
+        height:2000px;
+        }
+        
+#content
+        {
+        position:absolute;left:168px;top:218px;
+        width:1200px;
+        text-align:center;
+        background-color:#00BFFF;
+        padding:5px;
+        }
+#footer
+        {
+        text-align:center;
+        background-color:blue;
+        color:white;
+        padding:5px;
+        }
+        
+    
+   
+
