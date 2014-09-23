@@ -10,9 +10,9 @@
         {
         float:left;
         width:150px;
-        height:100px;
+        height:200px;
         background-color:#8795B6;
-        color:#D6E0F7;
+        color:black;
         padding:5px;
         }
         
@@ -37,12 +37,37 @@
         color:white;
         padding:5px;
         }
-        
     
-   /* Backgrund header/footer: #0A1C46 And text color:white
-      ----||--- container: #304474
-      ----||--- navigator: #8795B6 and text color: #D6E0F7 
-      ----||--- content: #D6E0F7 */
+
+
+#navigator ul
+        {
+                margin:10px;
+                padding:10px;
+                width:150px;
+                list-style-type:none;
+        }
+        
+#navigator ul li a
+        {
+                text-decoration: none;
+                color:white;
+                padding:10.5px 11px;
+                background-color:#636363;
+                display:block;
+        }
       
+#navigator ul li a:visited
+        {
+         color:#0944CA;       
+        }
+        
+#navigator ul li a:hover, navigator ul li .current
+        {
+         color:white;  
+         background-color:#1C1D1F;
+        }
+        
+        
       
 
