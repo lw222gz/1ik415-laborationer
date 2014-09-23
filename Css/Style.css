@@ -1,6 +1,6 @@
 #header {
-        background-color:blue;
-        color:orange;
+        background-color:#0A1C46;
+        color:white;
         height:200px;
         text-align:center;
         padding:5px;
@@ -11,13 +11,14 @@
         float:left;
         width:150px;
         height:100px;
-        background-color:orange;
+        background-color:#8795B6;
+        color:#D6E0F7;
         padding:5px;
         }
         
 #container
         {
-        background-color:#00FFFF;
+        background-color:#304474;
         height:2000px;
         }
         
@@ -26,17 +27,22 @@
         position:absolute;left:168px;top:218px;
         width:1200px;
         text-align:center;
-        background-color:#00BFFF;
+        background-color:#D6E0F7;
         padding:5px;
         }
 #footer
         {
         text-align:center;
-        background-color:blue;
+        background-color:#0A1C46;
         color:white;
         padding:5px;
         }
         
     
-   
+   /* Backgrund header/footer: #0A1C46 And text color:white
+      ----||--- container: #304474
+      ----||--- navigator: #8795B6 and text color: #D6E0F7 
+      ----||--- content: #D6E0F7 */
+      
+      
 
