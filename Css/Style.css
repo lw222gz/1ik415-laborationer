@@ -90,5 +90,12 @@
      text-align:right;
 }
         
+.bild
+{
+        background-image:url(Pics/kugghjul.png);
+        background-repeat: no-repeat;
+        background-position:top left;
+        background-size:20px 20px;
+}
       
 
