@@ -1,12 +1,18 @@
 #header {
         background-color:#0A1C46;
         color:white;
-        height:200px;
+        height:300px;
         text-align:center;
         padding:5px;
+        
+        background-image:url(Pics/get%20rekt.png);
+        background-position:top left;
+        background-repeat: no-repeat;
+        background-size:200px 300px;
         }
 
-#navigator        {
+#navigator        
+        {
         margin:0px;
         float:left;
         width:200px;
@@ -69,13 +75,13 @@
       
 #navigator ul li a:visited
         {
-         color:#0944CA;       
+                color:#0944CA;       
         }
         
 #navigator ul li a:hover, navigator ul li .current
         {
-         color:white;  
-         background-color:#1C1D1F;
+                 color:white;  
+                 background-color:#1C1D1F;
         }
         
 .active 
