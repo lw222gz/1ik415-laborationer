@@ -1,0 +1,9 @@
+@media print {
+    #navigator, #footer { display:none; }
+    video { display:none; }
+    .notshow { display:none; }
+    a:link:after, a:visited:after { content:" [" attr(href) "] "; }
+    
+    
+    
+}
