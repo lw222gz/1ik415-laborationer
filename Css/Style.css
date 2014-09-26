@@ -4,6 +4,7 @@
         height:300px;
         text-align:center;
         padding:5px;
+        font-family:georgia; 
         
         background-image:url(Pics/get%20rekt.png);
         background-position:top left;
@@ -36,6 +37,7 @@
         text-align:left;
         background-color:#D6E0F7;
         padding:5px;
+        font-family: helvetica;
         }
         
 #footer
@@ -117,3 +119,4 @@ h3
 {
         font-style:oblique;
 }
+
