@@ -1,9 +1,27 @@
 @media print {
+    
     #navigator, #footer { display:none; }
+    
     video { display:none; }
-    .notshow { display:none; }
+   
     a:link:after, a:visited:after { content:" [" attr(href) "] "; }
+    a:link { font-weight: bold; text-decoration: underline; color: #06c; }
     
+    body 
+    { 
+    background: white; 
+    line-height: 1.2;
+    word-spacing: 1px;
+    }
     
+    #content { background: transparent; } 
     
+    .right
+    {
+        position:relative;
+        top:500px;
+        right: 150px;
+    }
+    
+     .notshow { display:none; }
 }
