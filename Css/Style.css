@@ -50,11 +50,11 @@
     
 #horizontal 
         {
-                height:1px;
-                width:100%;
-                margin-top:5px;
-                margin-bottom:5px;
-                background-color:#3D3D56;
+        height:1px;
+        width:100%;
+        margin-top:5px;
+        margin-bottom:5px;
+        background-color:#3D3D56;
         }    
 
 
@@ -68,7 +68,7 @@
         
 #navigator ul li a
         {
-                text-decoration: none;
+                text-decoration:none;
                 color:white;
                 margin:3px;
                 padding:10.5px 11px;
@@ -104,10 +104,7 @@
         text-indent:40px;
 }
 
-.right
-{
-        float:right;
-}
+.right { float:right; }
 
 h2
 {
@@ -115,8 +112,6 @@ h2
         text-decoration:underline;
 }
 
-h3
-{
-        font-style:oblique;
-}
+h3 { font-style:oblique; }
 
+fieldset { width:300px; }
