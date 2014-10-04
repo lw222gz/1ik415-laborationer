@@ -14,6 +14,7 @@
 
 #navigator        
         {
+        
         float:left;
         width:200px;
         height:auto;
@@ -31,16 +32,16 @@
         
 #container
         {
+        width:1200px;
         background-color:#304474;
-        height:2000px;
+        margin:0 auto;
         }
         
 #content
         {
-        float:left;
+        float:right;
         margin:0px;
-        position:inherit;
-        width:1200px;
+        width:980px;
         text-align:left;
         background-color:#D6E0F7;
         padding:5px;
@@ -49,6 +50,7 @@
         
 #footer
         {
+        clear:both;
         text-align:center;
         background-color:#0A1C46;
         color:white;

@@ -14,8 +14,8 @@
     word-spacing: 1px;
     }
     
-    #content { background: transparent; } 
     
+    #container, #content, #header { width:100%; }
     .right
     {
         position:relative;

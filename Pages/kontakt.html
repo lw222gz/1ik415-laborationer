@@ -3,7 +3,9 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" media="print" href="../Css/print.css" />
+        
         <link rel="stylesheet" href="../Css/Style.css" />
+        <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="../Css/Phone.css" />
         <title>kontakt</title>
     </head>
 <body>
@@ -13,42 +15,42 @@
 </div>
 
 <div id="navigator">
-<ul>
-    <li><a -id="Start-icon" href="../index.html">Start</a></li>
-    <li><a id="Labrationer-icon" href="labrationer.html">Labrationer</a></li>
-    <li><a id="Presentation-icon" href="presentation.html">Presentation</a></li>
-    <li class="active"><a id="Kontakt-icon" href="kontakt.html">Kontakt</a></li> 
-</ul>
+    <ul>
+        <li><a id="Start-icon" href="../index.html">Start</a></li>
+        <li><a id="Labrationer-icon" href="labrationer.html">Labrationer</a></li>
+        <li><a id="Presentation-icon" href="presentation.html">Presentation</a></li>
+        <li class="active"><a id="Kontakt-icon" href="kontakt.html">Kontakt</a></li> 
+    </ul>
 </div>
 
 <div id="content">
-<p></p>
+
 <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
     <fieldset>
-    <legend>Fråga</legend><!--Vill göra den kortare, vet inte hur dock. Testade med width och height
-    i fieldset satsen men det gjorde inget för mig-->
-    Ärende:<select name="Ärende">
-        <option value="Fråga">Fråga</option>
-        <option value="Medelande">Medelande</option>
-        <option value="Möte">Möte</option>
-        <option value="Övrigt">Övrigt</option>
+        <legend>Fråga</legend>
+            Ärende:<select name="Ärende">
+                <option value="Fråga">Fråga</option>
+                <option value="Medelande">Medelande</option>
+                <option value="Möte">Möte</option>
+                <option value="Övrigt">Övrigt</option>
 </select><br />
     Rubrik: <input type="text" name="Rubrik" />
     <p>Medelande:</p><p><textarea name="textarea" rows="3" cols="30"></textarea></p>
     
     </fieldset>
-    <fieldset>
-    <legend>Hur ska jag kontakta dig?</legend>
-    <input type="checkbox" name="E-mail" value="mail">E-mail<br />
-    <input type="checkbox" name="Telefon" value="Telefon">Telefon
-    </fieldset>
+        <fieldset>
+            <legend>Hur ska jag kontakta dig?</legend>
+                <input type="checkbox" name="E-mail" value="mail">E-mail<br />
+                <input type="checkbox" name="Telefon" value="Telefon">Telefon
+        </fieldset>
     <input type="submit" value="Sicka"/>
     
 </form>
 </div>
-</div>
 <div id="footer">
     Skrivet av Lucas Wik. 2014-09-22
 </div>
+</div>
+
 </body>
 </html>
