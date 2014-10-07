@@ -1,0 +1,25 @@
+@media only screen and (max-device-width: 480px) {
+    
+    #header, #navigator, #content, #footer { width:310px; }
+    
+    #content, #footer { font-size:12px; }
+    
+    #container { width:320px; }
+    
+    #content { margin:0; }
+    
+    #header { background-image:none; }
+    
+    #navigator ul li a { width:240px; }
+    
+    body { margin:0; }
+    
+    img { width:310px; }
+    
+    video { width:310px; }
+    
+    fieldset { width:250px; }
+    
+    .bild { background-size:20px 20px; }
+    
+}
