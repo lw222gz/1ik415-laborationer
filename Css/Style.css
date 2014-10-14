@@ -64,6 +64,16 @@
         margin-bottom:5px;
         background-color:#3D3D56;
         }    
+        
+#hcard-Lucas-Axel-Karl-Wik
+{
+        display:block;
+        padding:5px;
+        background-color:#ccc;
+        border:1px solid black;
+        font-size:90%;
+        width:319px;
+}
 
 
 #navigator ul
