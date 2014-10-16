@@ -1,4 +1,4 @@
-#header {
+header {
         background-color:#0A1C46;
         color:white;
         height:300px;
@@ -12,7 +12,7 @@
         background-size:225px 300px;
         }
 
-#navigator        
+nav       
         {
         float:left;
         width:200px;
@@ -22,7 +22,7 @@
         padding:5px;
         }
         
-#navigator a 
+nav a 
         {
         text-indent:30px;
         background-image:url(Pics/sprite.png);
@@ -36,7 +36,7 @@
         margin:0 auto;
         }
         
-#content
+main
         {
         float:right;
         margin:0px;
@@ -47,7 +47,7 @@
         font-family: helvetica;
         }
         
-#footer
+footer
         {
         clear:both;
         text-align:center;
@@ -76,7 +76,7 @@
 }
 
 
-#navigator ul
+nav ul
         {
                 margin:5px;
                 padding:5px;
@@ -84,7 +84,7 @@
                 list-style-type:none;
         }
         
-#navigator ul li a
+nav ul li a
         {
                 text-decoration:none;
                 color:white;
@@ -94,12 +94,12 @@
                 display:block;
         }
       
-#navigator ul li a:visited
+nav ul li a:visited
         {
                 color:#0944CA;       
         }
         
-#navigator ul li a:hover, navigator ul li .current
+nav ul li a:hover, navigator ul li .current
         {
                  color:white;  
                  background-color:#1C1D1F;

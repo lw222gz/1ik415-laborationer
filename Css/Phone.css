@@ -1,18 +1,18 @@
 @media only screen and (max-device-width: 480px) {
     
-    #header, #navigator, #content, #footer { width:310px; }
+    header, nav, main, footer { width:310px; }
     
-    #content, #footer { font-size:12px; }
+    main, footer { font-size:12px; }
     
     #hcard-Lucas-Axel-Karl-Wik { font-size:13px; width:auto; } 
     
     #container { width:320px; }
     
-    #content { margin:0; }
+    main { margin:0; }
     
-    #header { background-image:none; }
+    header { background-image:none; }
     
-    #navigator ul li a { width:240px; }
+    nav ul li a { width:240px; }
     
     body { margin:0; }
     

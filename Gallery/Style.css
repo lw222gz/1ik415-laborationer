@@ -30,19 +30,23 @@ footer
 .fotogalleri a
 {
 	background-color: white;
-	display: inline;
 	float: left;
+	display:inline;
 	margin: 10px 15px 30px;
 	padding: 10px 10px 25px;
 	text-align: center;
 	box-shadow: 0 10px 40px;
 	text-decoration:none;
+	-webkit-box-shadow:0 10px 40px;
+	-moz-box-shadow:0 10px 40px;
 	transition: .15s linear;
+	-webkit-transition: .15s linear;
+	-moz-transition: 152 linear;
     position:relative;
 }
 
 .fotogalleri a:after {
-	font-family:Impact, sans-serif;
+	font-family: 'Oswald', sans-serif;
 	color:black;
 	font-size: 20px;
 	content: attr(title);
@@ -59,45 +63,63 @@ footer
 .fotogalleri a:nth-child(1n)
 {
 	left:150px;
+	-webkit-transform: rotate(-14deg);
+	-moz-transform: rotate(-14deg);
 	transform: rotate(-14deg);
 }
 
-.fotogalleri a:nth-child(2n)
+.fotogalleri a:nth-child(2)
 {
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
 	transform: rotate(5deg); 
 }
 
-.fotogalleri a:nth-child(3n) 
+.fotogalleri a:nth-child(3) 
 { 
+	-webkit-transform: rotate(20deg);
+	-moz-transform: rotate(20deg);
 	transform: rotate(20deg); 
 }
 
-.fotogalleri a:nth-child(4n)
+.fotogalleri a:nth-child(4)
 {
+	-webkit-transform: rotate(-7deg);
+	-moz-transform: rotate(-7deg);
 	transform: rotate(-7deg); 
 }
 
-.fotogalleri a:nth-child(5n)
+.fotogalleri a:nth-child(5)
 {
+	-webkit-transform: rotate(9deg);
+	-moz-transform: rotate(9deg);
 	width:400px;	
 	transform: rotate(9deg); 
 }
 
-.fotogalleri a:nth-child(6n)
+.fotogalleri a:nth-child(6)
 {
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
 	transform: rotate(-5deg);
 }
 
-.fotogalleri a:nth-child(7n)
+.fotogalleri a:nth-child(7)
 {
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
 	left:-300px;
 	transform: rotate(-10deg);
 }
 
 .fotogalleri a:hover, .fotogalleri a:focus
 {
+		-webkit-transform: scale(1.4);
+		-moz-transform: scale(1.4);
         transform: scale(1.4);
-		z-index:10;
+		z-index:1;
         box-shadow: 0 25px 75px;
+        -webkit-box-shadow: 0 25px 75px;
+        -moz-box-shadow: 0 25px 75px;
 }
 

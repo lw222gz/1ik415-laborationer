@@ -1,6 +1,6 @@
 @media print {
     
-    #navigator, #footer { display:none; }
+    nav, footer { display:none; }
     
     video { display:none; }
    
@@ -15,7 +15,7 @@
     }
     
     
-    #container, #content, #header { width:100%; }
+    #container, main, header { width:100%; }
     .right
     {
         position:relative;
